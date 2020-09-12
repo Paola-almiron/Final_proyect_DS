@@ -58,12 +58,52 @@ Esto da como resultado las exitencias de carbono de los cultivos en ton C, que d
 
 ## 3_1_Muestra_y_variables
 
-El análisis se realizó, teniendo en cuenta 2 variables: las emisiones de gases de efecto invernadero generadas en el Paraguay por la ganadería vacuna y las emisiones de gases de efecto invernadero producidas por 4 cultivos primarios en la alimentacion basada en plantas.
+El análisis se realizó, teniendo en cuenta 2 variables: 
+
+  - Emisiones de gases de efecto invernadero generadas en el Paraguay por la ganadería vacuna. Los datasets estan disponibles [aquí](http://www.fao.org/faostat/es/#data)
+  
+  - Emisiones de gases de efecto invernadero producidas por 4 cultivos primarios en la alimentación basada en plantas. La metodología utilizada para el cálculo de estos datos esta disponible [aquí](https://www.ipcc nggip.iges.or.jp/public/2006gl/spanish/pdf/4_Volume4/V4_05_Ch5_Cropland.pdf)
+
 
 # 3_2_Procesamiento_de_datos
-```python jsdfkaslkjdfwñlsf
 
+Para el análisis fueron necesarios:
+
+Herramientas:
+
+- Jupyter notebook
+- Python 3
+
+En el entorno:
+```python
+- import numpy as np
+- import pandas as pd
+- import matplotlib.pyplot as plt
+- import statsmodels as sm
+- import statsmodels.api as sm
 ```
+
+Modelo:
+```python
+- from statsmodels.tsa.statespace.sarimax import SARIMAX
+```
+
+Gráficos de métricas y métricas:
+```python
+- from statsmodels.tsa.stattools import acf
+- from statsmodels.tsa.stattools import pacf
+- from statsmodels.graphics.tsaplots import plot_acf
+- from statsmodels.graphics.tsaplots import plot_pacf
+- from statsmodels.tsa.stattools import adfuller
+- from statsmodels.tsa.seasonal import seasonal_decompose
+- from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, median_absolute_error, mean_squared_log_error
+```
+
+
+
+
+
+
 
 
 
