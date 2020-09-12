@@ -41,5 +41,5 @@
   * [5_6_Gradient Boosting Classifier](#5_6_Gradient-Boosting-Classifier)
 * [6_References](#6_References)
 
-#0_Resumen
+# 0_Resumen
 hola voy a probar a ver que onda con esto pofavo
