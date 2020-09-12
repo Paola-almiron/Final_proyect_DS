@@ -11,6 +11,12 @@
    * [3_2_2_Preprocesamiento de datos](#3_2_2_Preprocesamiento_de_datos)
 * [3_3_Comprobación de estacionariedad de las Seriesb Temporales](#3_3_Comprobación_de_estacionariedad_de_las_Series_Temporales)
 * [3_4_Forecasting](#3_4_Forecasting)
+* [4_Comparación_de_resultados_y_conclusión](#4_Comparación_de_resultados_y_conclusión)
+   * [4_1_Visualización_de_emisiones_1961_2017](#4_1_Visualización_de_emisiones_1961_2017)
+   * [4_2_Predicción_de_las_emisiones_hasta_el_2035](#4_2_Predicción_de_las_emisiones_hasta_el_2035)
+
+
+   
 
 # 0_Resumen
 
