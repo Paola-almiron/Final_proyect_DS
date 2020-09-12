@@ -6,7 +6,7 @@
 * [1_Introducción](#1_Introducción)
 * [2_Descripción de los datos](#2_Descripción_de_los_datos)
 * [3_Metodología](#3_Metodología)
- * [3_1_Muestra y variables](##3_1_Muestra_y_variables)
+ * [3_1_Muestra_y_variables](##3_1_Muestra_y_variables)
  * [3_2_Procesamiento de datos](##3_2_Procesamiento_de_datos)
    * [3_2_2_Preprocesamiento de datos](###3_2_2_Preprocesamiento_de_datos)
  * [3_3_Comprobación de estacionariedad de las Seriesb Temporales](##3_3_Comprobación_de_estacionariedad_de_las_Series_Temporales)
