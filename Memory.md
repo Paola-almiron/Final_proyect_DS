@@ -133,9 +133,36 @@ Realizamos las predicciones para ambas series, hasta el año 2035.
 
 Utilizamos las métricas para determinar la bondad de nuestro modelo predictivo, tanto el modelo predictivo de la ganaderia, como la de los cultivos, poseen un ajuste bueno de prediccion, con un r2 score >~ 0.90, MAPE < 10 para ambas predicciones. El RSME de la ganaderia es de 887 Gg de CO2, considero es bajo, ya que las emisiones son mayores a 10.000Gg CO2. El RMSE de los cultivos es de 174 Gg de CO2, y también lo considero un valor bajo, debido a que las emisiones son mayores a 5000 Gg de CO2.
 
-# 4_Comparación_de_resultados_y_visualización
+# 4_Comparación_de_resultados_y_conclusión
 
-##
+## 4_1_Visualización_de_emisiones_1961_2017
+
+- En el gráfico comparativo de [emisiones](https://github.com/Paolaalmiron/Final_proyect_DS/blob/master/cattle_vs_crop_1961_to_2017.png), podemos ver como las emisiones de GHG provenientes de la ganadería han sido mucho mayores a las emisiones de 4 cultivos juntos durante 56 años
+
+- Las emisiones de la ganadería contribuyen mucho más a las emisiones totales del sector, debido a que emiten únicamente CH4 y NO2, ambos son gases con un potencial de calentamiento mucho mayor que el CO2.
+
+- Los cultivos han aumentado 30 veces las emisiones en comparación al inicio del periodo, esto debido principalmente al gran aumento de producción de soja en el país.
+
+- Paraguay dio cierre al año [2014]https://revistalogisticaparaguay.com/ganaderia-paraguaya-cierra-el-2014-como-sexto-exportador-mundial-de-carne/), ubicándose como sexto exportador mundial de carne. El aumento de las emisiones para este año se debió al aumento en la producción cárnica.
+
+- En el año [2015](https://www.ultimahora.com/se-establece-nuevo-record-produccion-soja-paraguay-n1048579.html), Paraguay produjo 10.000.000 de toneladas de soja, ubicándose como el cuarto exportador mundial de soja.
+
+- Los picos máximos de emisión en el 2014/2015 se deben principalmente al aumento en la producción de soja y ganado vacuno
+
+## 4_2_Predicción_de_las_emisiones_hasta_el_2035
+
+- Se prevee que las emisiones para ambas variables siga aumentando con respecto al tiempo.
+
+- El mayor aumento lo tendrán los cultivos. Se prevee que doblen sus emisiones para el año 2035.
+
+- Un aumento en la emisión de GHG provenientes de los cultivos, implica mayor producción.
+
+- El incremento en las emisiones de cultivo lo produjo pincipalmente el aumento de la producción de los cultivos de soja.
+
+- Mayor producción de soja = Mayor deforestación. Pero eso quedará para otro análisis que amplie este :)
+
+
+
 
 
 
