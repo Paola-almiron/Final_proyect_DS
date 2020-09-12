@@ -1,5 +1,7 @@
-# Producción de carne vs Producción de 4 cultivos base de la alimentacion basada en plantas. Exploración sus emisiones históricas y predicción.
+# Producción de carne vs Producción de 4 cultivos base de la alimentación basada en plantas. Exploración sus emisiones históricas y predicción.
+
 # Table of Contents
+
 * [0_Resumen](#0_Resumen)
 * [1_Introducción](#1_Introducción)
 * [2_Descripción de los datos](#2_Descripción_de_los_datos)
@@ -15,6 +17,7 @@
 * [6_References](#6_References)
 
 # 0_Resumen
+
 En este análisis, visualizamos las emisiones de gases de efecto invernadero producidas por 2 sectores controversiales del Paraguay, la ganadería bovina y la producción agrícola, más específicamente, [4 cultivos](https://link.springer.com/article/10.1007/s11367-015-0931-6) que son la base en la producción de alimentos sustitutos de la carne vacuna (soja, maiz, trigo y guisantes). 
 
 El periodo de estudio fue de 1961 a 2035, la visualización de las emisiones fue desde 1961 a 2017 y la predicción hasta el 2035. Esto, debido a que los datos públicos están disponibles desde 1961 a 2017 y la predicción hasta el 2035, ya que la politica agraria nacional se analizará recién en ese año.
@@ -31,5 +34,7 @@ Este análisis lo realice, con el fin de poder aportar un poco de claridad en la
 El objetivo principal de este estudio es: crear una linea de tiempo con la emisión de GHG correspondientes a cada sector, desde 1961 (fecha desde que se tienen datos) hasta la nueva revisión de la politica agraria (2035).
 
 # 2_Descripción_de_los_datos
+
+
 
 
