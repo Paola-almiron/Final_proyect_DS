@@ -1,4 +1,4 @@
-# Producción de carne vs Producción de 4 cultivos base de la alimentación basada en plantas. Exploración sus emisiones históricas y predicción.
+# Producción de carne vs Producción de 4 cultivos base de la alimentación basada en plantas. Exploración de sus emisiones históricas y predicción.
 
 # Tabla de contenido
 
@@ -65,9 +65,9 @@ El análisis se realizó, teniendo en cuenta 2 variables:
   - Emisiones de gases de efecto invernadero producidas por 4 cultivos primarios en la alimentación basada en plantas. La metodología utilizada para el cálculo de estos datos esta disponible [aquí](https://www.ipcc nggip.iges.or.jp/public/2006gl/spanish/pdf/4_Volume4/V4_05_Ch5_Cropland.pdf)
 
 
-# 3_2_Procesamiento_de_datos
+# 3_2_Procesamiento_de_datos:
 
-Para el análisis fueron necesarios:
+# 3_2_1_Para_el_análisis:
 
 Herramientas:
 
@@ -98,6 +98,11 @@ Gráficos de métricas y métricas:
 - from statsmodels.tsa.seasonal import seasonal_decompose
 - from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, median_absolute_error, mean_squared_log_error
 ```
+### 3_2_2_Preprocesamiento_de_datos:
+
+Los datos de emisión de la ganadería se obtienen por separado: [Fermentación entérica](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/FAOSTAT_data_enteric1960.csv) y [Gestión del estiércol](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/FAOSTAT_data_manure1960.csv). Debemos fusionarlos y luego sumar las emisiones de ambas para obtener las emisiones totales de ese sector.
+
+
 
 
 
