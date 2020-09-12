@@ -133,26 +133,9 @@ Realizamos las predicciones para ambas series, hasta el año 2035.
 
 Utilizamos las métricas para determinar la bondad de nuestro modelo predictivo, tanto el modelo predictivo de la ganaderia, como la de los cultivos, poseen un ajuste bueno de prediccion, con un r2 score >~ 0.90, MAPE < 10 para ambas predicciones. El RSME de la ganaderia es de 887 Gg de CO2, considero es bajo, ya que las emisiones son mayores a 10.000Gg CO2. El RMSE de los cultivos es de 174 Gg de CO2, y también lo considero un valor bajo, debido a que las emisiones son mayores a 5000 Gg de CO2.
 
+# 4_Comparación_de_resultados_y_visualización
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##
 
 
 
