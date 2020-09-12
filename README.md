@@ -29,6 +29,5 @@ El periodo de estudio fue de 1961 a 2035, la visualización de las emisiones fue
 La visualización de ambas variables determinaron una tendencia ascendente. Para el periodo 1961-2017, la emisión de GHG de los 4 cultivos, aumentó 30 veces más que en sus inicios. La ganadería aumento casi 4 veces más, sin embargo, cabe resaltar que en sector se emite principalmente CH4 y NO2, 2 gases con potencial de calentamiento mucho mayor al CO2. Las predicciones tampoco fueron nada esperanzadoras. El aumento de las emisiones de los cultivos es casi exponencial y la ganaderia seguiría en aumento.
 
 # 1_Introducción
-
-
+Paraguay es un país principalmente agrícola - ganadero. Su economía esta basada en actividades primarias, es racional decir que las emisiones de gases de efecto invernadero (GHG), provienen principalmente de estos sectores primarios. Actualmente en el país existen casi [3 cabezas de ganado vacuno por habitante](https://www.senacsa.gov.py/index.php/Temas-pecuarios/estadisticas), y casi  
 
