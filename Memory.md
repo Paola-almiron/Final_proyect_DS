@@ -6,7 +6,11 @@
 * [1_Introducción](#1_Introducción)
 * [2_Descripción de los datos](#2_Descripción_de_los_datos)
 * [3_Metodología](#3_Metodología)
-* [6_References](#6_References)
+ * [3_1_Muestra y variables](##3_1_Muestra_y_variables)
+ * [3_2_Procesamiento de datos](##3_2_Procesamiento_de_datos)
+   * [3_2_2_Preprocesamiento de datos](###3_2_2_Preprocesamiento_de_datos)
+ * [3_3_Comprobación de estacionariedad de las Seriesb Temporales](##3_3_Comprobación_de_estacionariedad_de_las_Series_Temporales)
+ * [3_4_Forecasting](##3_4_Forecasting)
 
 # 0_Resumen
 
@@ -98,9 +102,51 @@ Gráficos de métricas y métricas:
 - from statsmodels.tsa.seasonal import seasonal_decompose
 - from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, median_absolute_error, mean_squared_log_error
 ```
-### 3_2_2_Preprocesamiento_de_datos:
+### 3_2_2_Preprocesamiento_de_datos
 
-Los datos de emisión de la ganadería se obtienen por separado: [Fermentación entérica](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/FAOSTAT_data_enteric1960.csv) y [Gestión del estiércol](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/FAOSTAT_data_manure1960.csv). Debemos fusionarlos y luego sumar las emisiones de ambas para obtener las emisiones totales de ese sector.
+Los datos de emisión de la ganadería se obtienen por separado: [Fermentación entérica](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/FAOSTAT_data_enteric1960.csv) y [Gestión del estiércol](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/FAOSTAT_data_manure1960.csv). Debemos fusionarlos, eliminar variables que no se utilizarán y luego sumar las emisiones de ambas para obtener las emisiones totales de ese sector.
+
+Los datos de emisión de los cultivos se calcularon en 4 archivos.xlsx: [Emisión de la soja](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/soy_emissions1961.xlsx), [Emisión del trigo](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/wheat_emissions1961.xlsx), [Emisión del maiz](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/corn_emissions1961.xlsx) y [Emision de guisantes](https://github.com/Paola-almiron/Final_proyect_DS/blob/master/pea_emissions1961.xlsx). Debemos fusionar los 4, eliminar las variables que fueron utlizadas para el cálculo y sumar las emisiones para obtener los totales del sector.
+
+## 3_3_Comprobación_de_estacionariedad_de_las_Series_Temporales
+
+Una vez realizada la limpieza de datos, debemos comprobar si son estacionarios. Esto, debido a que el modelo ARIMA (modelo que utilizaremos para la predicción de nuestras variables), exige que las series sean estacionarias.
+
+Se utilizaron 3 métodos para la comprobacion de la estacionariedad:
+
+- ACF: proporciona la estructura de dependencia lineal de la misma.
+- PACF: proporciona la relación directa que existe entre observaciones separadas por k retardos 
+- Rolling mean: de forma visual podemos identificar si la serie es estacionaria o no
+- Test de Dickey-Fuller: la forma matemática de identificar si la serie es estacionaria. h0 = raíz unitaria está presente en una muestra de series de tiempo.
+
+Ambas series son NO estacionarias, por lo que aplicamos el método de diferenciación para estacionarlas y así realizar la predicción.
+
+## 3_4_Forecasting
+
+Las predicciones se realizaron con SARIMAX. 
+
+Para determinar el orden (p,d,q), entrenamos diferentes ordenes para el modelo. Utilizamos las paramétricas de AIC Y BIC para determinar la mejor combinación. La 'd' es la diferenciación que realizamos para estacionar cada serie. p = el mejor AIC, q = mejor BIC.
+
+Una vez obtenido el mejor orden para nuestros modelos, dividimos el dataset en train y test con una proporción de 90:10, esto, debido a que ambas series son pequeñas (56 datos cada una).
+
+Realizamos las predicciones para ambas series, hasta el año 2035.
+
+Utilizamos las métricas para determinar la bondad de nuestro modelo predictivo, tanto el modelo predictivo de la ganaderia, como la de los cultivos, poseen un ajuste bueno de prediccion, con un r2 score >~ 0.90, MAPE < 10 para ambas predicciones. El RSME de la ganaderia es de 887 Gg de CO2, considero es bajo, ya que las emisiones son mayores a 10.000Gg CO2. El RMSE de los cultivos es de 174 Gg de CO2, y también lo considero un valor bajo, debido a que las emisiones son mayores a 5000 Gg de CO2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
