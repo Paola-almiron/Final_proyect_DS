@@ -2,7 +2,7 @@
 # Table of Contents
 * [0_Resumen](#0_Resumen)
 * [1_Introducción](#1_Introducción)
-* [2_Descripción de los datos](#2_Descripción de los datos)
+* [2_Descripción_de_los_datos](#2_Descripción de los datos)
   * [2_1_Regression](#2_1_Regression)
     * [2_1_1_MAE_Mean Absolute Error](#2_1_1_MAE_Mean-Absolute-Error)
     * [2_1_2_MAPE_Mean Absolute Percentage Error](#2_1_2_MAPE_Mean-Absolute-Percentage-Error)
