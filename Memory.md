@@ -35,6 +35,16 @@ El objetivo principal de este estudio es: crear una linea de tiempo con la emisi
 
 # 2_Descripción_de_los_datos
 
+Los datos de emisión de GHG del sector ganadería, fueron obtenidos de la base de datos de la [FAO](http://www.fao.org/faostat/es/#data).
 
+Las emisiones provenientes de la ganadería se dividen en 2 fuentes de emisión:
+
+- Fermentación entérica: es un proceso digestivo por el cual los micro-organismos descomponen los carbohidratos en moléculas simples para la absorción en el flujo sanguíneo). La cantidad de metano que se libera depende del tipo de tracto digestivo, la edad y el peso del animal, así como de la calidad y la cantidad del alimento consumido. 
+ 
+ - Gestión del estiércol: es el CH4 y el NO2 producido durante el almacenamiento y el tratamiento del estiércol, así como del estiércol depositado en la pastura. El término «estiércol» se utiliza aquí, colectivamente, de modo que incluye la bosta y la orina (es decir, los sólidos y los líquidos) producidos por el ganado. Los principales factores que inciden en las emisiones de CH4 son la cantidad de estiércol que se produce y la porción que se descompone anaeróbicamente. 
+
+Los datos provenientes de los 4 cultivos, fueron obtenidos mediante el cálculo en base a la metodología del [IPCC 2006](https://www.ipcc-nggip.iges.or.jp/public/2006gl/spanish/pdf/4_Volume4/V4_05_Ch5_Cropland.pdf). Esto, debido a que los datasets disponibles no tratan la información de emisión de GHG individualmente por tipo de cultivo, sino, como un conjunto que se declara como "Emisiones provenientes de Tierras de cultivo". En este apartado, explicaré brevemente la metodología de cálculo.
+
+El cálculo de las emisiones por tipo de cultivo tiene en cuenta 6 variables: Categoría (Cultivos anuales o temporales), Área de cultivo, Carbono de referencia CF (parámetro que se establece de acuerdo a la regimen climático de la zona), Factor de cambio para sistemas de uso de la tierra FLU (parametro de cambio de carbono de acuerdo al sistema de cultivo y al régimen hidrico), Factor de cambio para sistemas de manejo FMG (parametro dependiente del sistema de manejo de cultivo), Factor de cambio para la entrada de materia órganica FI (parámetro que establece la entrada de carbono anual en los suelos). Esto da como target las exitencias de carbono (ton C), que deben ser multiplicadas por 44/12 para convertirlas a tonCO2. Siguiendo el mismo proceso para cada cultivo y para cada año de cálculo.
 
 
