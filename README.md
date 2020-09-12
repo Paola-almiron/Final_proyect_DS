@@ -1,6 +1,6 @@
 # Producción de carne vs Producción de 4 cultivos base de la alimentacion basada en plantas. Exploración sus emisiones históricas y predicción.
 # Table of Contents
-* [0_Resumen](# Resumen)
+* [0_Resumen](#0_Resumen)
 * [1_Introducción](#1_Introducción)
   * [1_1_Regression](#1_1_Regression)
     * [1_1_1_Linear Regression](#1_1_1_Linear-Regression)
