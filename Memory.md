@@ -149,7 +149,7 @@ Utilizamos las métricas para determinar la bondad de nuestro modelo predictivo,
 
 - Los cultivos han aumentado 30 veces las emisiones en comparación al inicio del periodo, esto debido principalmente al gran aumento de producción de soja en el país.
 
-- Paraguay dio cierre al año [2014]https://revistalogisticaparaguay.com/ganaderia-paraguaya-cierra-el-2014-como-sexto-exportador-mundial-de-carne/), ubicándose como sexto exportador mundial de carne. El aumento de las emisiones para este año se debió al aumento en la producción cárnica.
+- Paraguay dio cierre al año [2014](https://revistalogisticaparaguay.com/ganaderia-paraguaya-cierra-el-2014-como-sexto-exportador-mundial-de-carne/), ubicándose como sexto exportador mundial de carne. El aumento de las emisiones para este año se debió al aumento en la producción cárnica.
 
 - En el año [2015](https://www.ultimahora.com/se-establece-nuevo-record-produccion-soja-paraguay-n1048579.html), Paraguay produjo 10.000.000 de toneladas de soja, ubicándose como el cuarto exportador mundial de soja.
 
@@ -163,9 +163,9 @@ Utilizamos las métricas para determinar la bondad de nuestro modelo predictivo,
 
 - Un aumento en la emisión de GHG provenientes de los cultivos, implica mayor producción.
 
-- El incremento en las emisiones de cultivo lo produjo pincipalmente el aumento de la producción de los cultivos de soja.
+- El incremento en las emisiones de cultivo lo produjo pincipalmente el aumento en la producción de los cultivos de soja.
 
-- Mayor producción de soja = Mayor deforestación. Pero eso quedará para otro análisis que amplie este :)
+- Mayor producción de soja = Mayor deforestación. Pero eso quedará para otro análisis :)
 
 
 
